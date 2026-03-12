@@ -7,15 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/icon.png">
   </head>
-  <body>
+  <body class="bg-dark">
     <!--nav-->
     <div class="conatiner-fluid">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-        <img src="images/flipkart-icon.png" alt="logo" width="60px" height="50px" >
+        <img src="images/Flipkart-logo.png" alt="logo" width="95px" height="70px" >
     </a>
+
 <form class="d-flex w-75" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -29,22 +30,23 @@
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+           Category
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Fashion</a></li>
+            <li><a class="dropdown-item" href="#">Grocery</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Electronics</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
+      
       </ul>
       
     </div>
@@ -54,14 +56,98 @@
 
     </div>
 
-
-
     <!--carsauel banner-->
+    <div class="container-fluid m-0 p-0">
+      <div class="row">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="images/banner1.PNG" class="d-block w-100" alt="..." >
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/banner2.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+    </div>
+
+    <!--cards-->
+    <div class="container-fluid mt-2">
+      <div class="row gap-2 justify-content-around">
+
+        <div class="card" style="width: 18rem;">
+  <img src="New folder/card1.png" class="card-img-top" alt="..." width="100px" height="150px">
+  <div class="card-body">
+    <h5 class="card-title">KURTA</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary d-flex justify-content-center" >ADD TO CART</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="New folder/card2.PNG" class="card-img-top" alt="..." width="100px" height="150px">
+  <div class="card-body">
+    <h5 class="card-title">SHOES</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary d-flex justify-content-center ">ADD TO CART</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="New folder/card3.PNG" class="card-img-top" alt="..." width="100px" height="150px">
+  <div class="card-body">
+    <h5 class="card-title">GIRLS JEANS </h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary  d-flex justify-content-center" >ADD TO CART</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="New folder/card4.PNG" class="card-img-top" alt="..." width="100px" height="150px">
+  <div class="card-body">
+    <h5 class="card-title">MANGALSUTRA</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary  d-flex justify-content-center">ADD TO CART</a>
+  </div>
+</div>
+
+
+      </div>
+    </div>
 
 
 
     <!--offer images-->
+<div class="container-fluid mt-2">
+  <div class="row">
+    <div class="col-6" >
+      <img src="images/offer5.PNG" alt="" width="650px">
+    </div>
 
+    <div class="col-6">
+      <img src="images/offer6.PNG" alt="" width="650px">
+    </div>
+    <div class="col-6">
+      <img src="images/offer7.PNG" alt="" width="650px">
+    </div>
+    <div class="col-6">
+      <img src="images/offer8.PNG" alt="" width="650px">
+    </div>
+
+  </div>
+</div>
 
 
     <!--footer---->
